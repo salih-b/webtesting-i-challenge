@@ -10,6 +10,7 @@ function succeed(item) {
 }
 
 function fail(item) {
+  item.durability = 100;
   return { ...item };
 }
 
